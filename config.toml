@@ -1,0 +1,50 @@
+baseURL = "https://blog.thulazungu.com"
+title = "Thula Zungu"
+author = "Thula Zungu"
+copyright = "Thula Zungu 2022 ©"
+paginate = 4
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+theme = "origin"
+
+[params]
+  description = "Ramblings about code"
+  featured = true
+  cssonly = false
+
+  [params.socials]
+    facebook = ""
+    twitter = ""
+    instagram = ""
+    youtube = ""
+    github = ""
+    gitlab = ""
+    linkedin = ""
+    slack = ""
+    stackoverflow = ""
+    medium= ""
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup]
+  [markup.highlight]
+    style = "github"
+    tabWidth = 4
+
+[markup.goldmark.renderer]
+unsafe = true
+
+
