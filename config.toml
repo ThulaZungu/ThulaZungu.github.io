@@ -29,10 +29,10 @@ theme = "origin"
 [menu]
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 5
 
 [taxonomies]
   category = "categories"
@@ -41,7 +41,7 @@ theme = "origin"
 
 [markup]
   [markup.highlight]
-    style = "github"
+    style = "dracula"
     tabWidth = 4
 
 [markup.goldmark.renderer]
